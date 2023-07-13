@@ -1,0 +1,49 @@
+#wrap-todo {
+   width: 700px;
+   margin: 0 auto;
+}
+
+input,button {
+   height: 25px;
+}
+
+.add-todo {
+   margin-bottom: 5px;
+}
+
+.todo-list {
+   margin-top: 35px;
+}
+
+.bordered-table {
+   margin-top: 10px;
+   border-collapse: collapse;
+ }
+ 
+.bordered-table th,
+.bordered-table td {
+   border: 1px solid black;
+   padding: 8px;
+}
+ 
+.bordered-table th {
+   background-color: #f2f2f2;
+}
+
+.group-action-button {
+   margin-left: 15px;
+   gap: 10px;
+   visibility: hidden;
+}
+
+.action-button {
+   margin-right: 5px;
+ }
+
+.bordered-table tr:hover .group-action-button {
+   visibility: visible !important;
+}
+
+.completed {
+   text-decoration: line-through;
+}
